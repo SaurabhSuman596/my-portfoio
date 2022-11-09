@@ -1,0 +1,92 @@
+.frontScreen{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    word-spacing: 1.2px;
+    color: #B8B8B8;
+    font-weight: 800;
+}
+
+.frontScreenLight{
+    color: #212121;
+}
+
+.frontScreen__nameLight{
+    color: #212121 !important;
+}
+
+.frontScreen__button>.linkDark{
+    text-decoration: none;
+    color: white;
+}
+
+.frontScreen__left{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.frontScreen__name{
+    font-size: 3.5rem;
+    color: white;
+    animation:fadeInUp;
+    animation-duration: 1.5s;
+}
+
+.frontScreen__fullStack{
+    font-size: 18px;
+    color: #1CA556;
+    font-weight: 800;
+    animation:fadeInUp;
+    animation-duration: 1.5s;
+}
+
+.frontScreen__para{
+    font-size: 16px;
+    animation:fadeInUp;
+    animation-duration: 1.5s;
+    
+}
+
+.frontScreen__button{
+    border: none;
+    background-color: #1CA556;
+    color: white;
+    padding: 15px 55px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    border-radius: 25px;
+    animation:fadeInUp;
+    animation-duration: 1.5s;
+    cursor: pointer;
+}
+
+.frontScreen__right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frontScreen__right>img{
+    justify-content: center;
+    width: 75%;
+    animation:fadeInRight;
+    animation-duration: 1.5s;
+}
+
+.link{
+    color: white;
+}
+
+@media only screen and (max-width:950px){
+    .frontScreen__right{
+        display: none;
+    }
+}

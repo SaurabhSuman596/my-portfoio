@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Saurabh",
+  "name": "S Saurabh",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://t4.ftcdn.net/jpg/01/44/36/25/360_F_144362550_457KrCiDhCFpyNqf9DRdzLQE16cfuvRo.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://t4.ftcdn.net/jpg/01/44/36/25/360_F_144362550_457KrCiDhCFpyNqf9DRdzLQE16cfuvRo.jpg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://t4.ftcdn.net/jpg/01/44/36/25/360_F_144362550_457KrCiDhCFpyNqf9DRdzLQE16cfuvRo.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }

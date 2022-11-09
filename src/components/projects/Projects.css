@@ -1,0 +1,77 @@
+.projects{
+    margin-top: 20px;
+}
+
+.projects__head{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project__card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(43, 43, 43);
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease-out;
+    animation:flipInX; 
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+.project__card:hover{
+    background-color: #E31F71;
+    transform: translateY(-5px);
+}
+
+.project__cardHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project__file{
+    width: 2.8rem !important;
+    height: 2.8rem !important;
+    color: #1CA556 !important;
+    cursor: pointer !important;
+}
+
+.project__cardbody{
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 800;
+    line-height:1.2;
+    color: #ebe7e7;
+}
+
+.project__cardbodyHead,.project__github{
+    color: white;
+}
+
+.project__cardFooter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #b3afaf;
+}
+
+@media only screen and (min-width:950px){
+    .projects__projectsWrapper{
+        box-sizing: border-box;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project__card{
+        width: 25%;
+    }
+ }

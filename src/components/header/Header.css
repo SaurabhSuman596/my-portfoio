@@ -1,0 +1,135 @@
+.header__wrapper{
+    /* position: relative; */
+    height: 80px;
+}
+
+.headerLightTheme{
+    background-color: #F5F5F5 !important ;
+    color: #212121 !important ;
+}
+.linkLight{
+    color: #212121 !important ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header__sDark{
+    color: white !important;
+}
+
+.header__sLight{
+    color: black !important;
+}
+
+.header__left{
+    font-size: 1.8rem;
+}
+
+.header__left>.link>span{
+    color: #1CA556;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.css-julti5-MuiSwitch-root{
+    width: 60px !important;
+    height: 30px !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase{
+    height: 95% !important;
+    width: 98% !important;
+    padding: 0% !important;
+    padding-left: 5px !important;
+    justify-content: flex-start !important;
+}
+
+.MuiSwitch-track ,.css-1yjjitx-MuiSwitch-track{
+    background-color: #23CE6B !important;
+    height: 100% !important;
+    width: 100% !important;
+    opacity: 1 !important;
+    border-radius: 20px !important;
+}
+
+
+.css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+    color: white !important;
+}
+
+.css-jsexje-MuiSwitch-thumb{
+    width: 22px !important;
+    height: 22px !important;
+}
+
+.MuiSwitch-switchBase>input:checked ~.MuiSwitch-track {
+    background-color: #E31F71 !important;
+    opacity: 1;
+}
+
+.header__close{
+    z-index: 1000000 !important;
+}
+
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+.linkDark{
+    text-decoration: none;
+    color: #1CA556;
+}
+
+.linkDark>span{
+    color: #1CA556;
+}
+
+.hamData__CV{
+    background-color: #1CA556;
+    width: fit-content;
+    padding: 5px 45px;
+    border-radius: 25px;
+    transition: all 0.05s ease;
+}
+
+.hamData__CV>a{
+    text-decoration: none;
+    color:white;
+}
+.header__cancle{
+    display: none !important;
+}
+
+@media only screen and (max-width:950px){
+    .nav__wrapper{
+        display: none;
+    }
+    .header__cancle{
+        display: block !important;
+    }
+}
+
+
+

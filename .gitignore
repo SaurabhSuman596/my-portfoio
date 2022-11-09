@@ -8,6 +8,12 @@
 # testing
 /coverage
 
+# env
+.env
+
+# gitignore
+.gitignore
+
 # production
 /build
 
